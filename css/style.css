@@ -1,0 +1,169 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  background-color: rgb(67 131 95);
+  color: white;
+}
+.logo{
+  display: block;
+  text-align: center;
+  font-weight: 200;
+  font-size: 2.5em;
+  padding: 1% 0;
+}
+
+.popularTitle{
+  display: block;
+  padding: 1% 6%;
+  font-size: 1.2em;
+}
+
+.popularDrinksContainer{
+  display: flex;
+  border-top: 1px solid white;
+  padding: 1% 0;
+  margin: 0 5%;
+}
+
+.popularDrinksContainer img{
+  width: 50%;
+}
+.popDrink{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 1px solid white;
+}
+.popDrink4, .ingredient4{
+  border: none;
+}
+ 
+.popDrink:hover{
+  cursor:pointer;
+  color: rgb(35, 77, 53);
+}
+
+.popDrink span{
+  padding: 3% 0;
+}
+
+.drinksInfo img{
+  width: 20%;
+  display: block;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+input{
+  padding: 1%;
+  border: 1px solid white;
+  border-radius: 4px;
+  margin-bottom: 1%;
+}
+
+.searchContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.searchContainer > h1{
+  font-size: 1.7em;
+}
+
+.search{
+  display: flex;
+}
+
+#drinkName{
+  font-size: 2.2em;
+  font-weight: 200;
+  padding: 2%;
+}
+
+#getCocktail{
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 3%;
+  border-radius: 5px;
+  color: white;
+  margin-bottom: 1%;
+  margin-left: 3%;
+}
+#next, #prev{
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 2%;
+  border-radius: 50%;
+  color: white;
+}
+a:hover{
+  /* background-color: rgb(1, 193, 119); */
+  background-color: rgb(35, 77, 53);
+}
+
+
+
+
+.drinksInfo h2{
+  display: inline-block;
+}
+.drinksInfo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.drinkImg{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+ul{
+  list-style: none;
+}
+#ingredients{
+  padding-left: 5%;
+}
+#measurements{
+  text-align: right;
+}
+.ingredientContainer{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.instructions{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5%;
+}
+p{
+  padding: 0 10%;
+  font-size: 1.3em;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.hidden{
+  display: none;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Search for cocktails">
+    	<meta name="keywords" content="bartender, drinks, cocktail">
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+			<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400&display=swap" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+		<title>Bartender - search for cocltails</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<main>
+			<span class="logo">Bartender - Get cocktail recipes</span>
+			<section class="searchContainer">
+				<h1>Search for cocktails</h1>
+				<section class="search">	
+					<input type="text" name="" value="">
+					<a href="#" id="getCocktail">Search</a>
+				</section>	
+				<span id="drinksFound"></span>
+			</section>
+			
+			<section class="drinksInfo hidden">
+				<span id="drinkName"></span>
+				<section class="drinkImg">
+					<a href="#" id="prev"><span class="material-icons material-icons-outlined">
+						west
+						</span></a>
+					<img id="mainImg" src="" alt="drink">
+					<a href="#" id="next"><span class="material-icons material-icons-outlined">
+						east
+						</span></a>
+				</section>
+				<section class="ingredientContainer">
+					<h3>Ingredients:</h3>
+					<ul id="ingredients">
+					</ul>
+				</section>
+				<section class="instructions"> 
+					<h3>Instructions:</h3>
+					<p></p>
+				</section>
+			</section>
+
+			<span class="popularTitle">Popular Drinks:</span>
+			<section class="popularDrinksContainer">
+				
+					<div class="popDrink popDrink1">
+						<img src="https://www.thecocktaildb.com/images/media/drink/metwgh1606770327.jpg" alt="drink">
+						<span>Mojito</span>
+					</div>	
+				
+				
+					<div class="popDrink popDrink2">
+						<img src="https://www.thecocktaildb.com/images/media/drink/vrwquq1478252802.jpg" alt="drink">
+						<span>Old Fashioned</span>
+					</div>	
+				
+			
+					<div class="popDrink popDrink3">
+						<img src="https://www.thecocktaildb.com/images/media/drink/nkwr4c1606770558.jpg" alt="drink">
+						<span>Long Island Tea</span>
+					</div>	
+				
+					<div class="popDrink popDrink4">
+						<img src="https://www.thecocktaildb.com/images/media/drink/hbkfsh1589574990.jpg" alt="drink">
+						<span>Whiskey Sour</span>
+					</div>	
+			
+			</section>	
+			<span class="popularTitle">Popular Ingredients:</span>
+			<section class="popularDrinksContainer">
+				
+					<div class="popDrink ingredient1">
+						<img src="https://www.thecocktaildb.com/images/ingredients/Gin.png" alt="drink">
+						<span>Gin</span>
+					</div>	
+				
+				
+					<div class="popDrink ingredient2">
+						<img src="https://www.thecocktaildb.com/images/ingredients/Rum.png" alt="drink">
+						<span>Rum</span>
+					</div>	
+				
+			
+					<div class="popDrink ingredient3">
+						<img src="https://www.thecocktaildb.com/images/ingredients/Tequila.png" alt="drink">
+						<span>Tequila</span>
+					</div>	
+				
+					<div class="popDrink ingredient4">
+						<img src="https://www.thecocktaildb.com/images/ingredients/Vodka.png" alt="drink">
+						<span>Vodka</span>
+					</div>	
+			
+			</section>	
+		</main>
+		
+		
+		
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
